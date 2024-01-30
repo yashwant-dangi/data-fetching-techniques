@@ -89,7 +89,7 @@ function App() {
           </ul>
           <h2>References</h2>
           <ul style={{ textAlign: "left" }}>
-            <li><a href="https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities"></a></li>
+            <li><a href="https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities">https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities</a></li>
           </ul>
         </div> : null}
 
