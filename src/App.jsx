@@ -18,6 +18,7 @@ function App() {
       })}
       {lib === libs[0] ?
         <div>
+          <h2>Features</h2>
           <ul style={{ textAlign: "left" }}>
             <li>Data, error and loading states</li>
             <li>Global Configuration</li>
@@ -31,7 +32,68 @@ function App() {
             <li>Typescript Ready</li>
             <li>Middleware support (like axios intercepter)</li>
           </ul>
+          <h2>References</h2>
+          <ul style={{ textAlign: "left" }}>
+            <li><a href="https://swr.vercel.app/docs/getting-started">https://swr.vercel.app/docs/getting-started</a></li>
+          </ul>
+
         </div> : null}
+
+      {lib === libs[1] ?
+        <div>
+          <h2>Features</h2>
+          <ul style={{ textAlign: "left" }}>
+            <li></li>
+            <li>data,
+              dataUpdatedAt,
+              error,
+              errorUpdatedAt,
+              failureCount,
+              failureReason,
+              fetchStatus,
+              isError,
+              isFetched,
+              isFetchedAfterMount,
+              isFetching,
+              isInitialLoading,
+              isLoading,
+              isLoadingError,
+              isPaused,
+              isPending,
+              isPlaceholderData,
+              isRefetchError,
+              isRefetching,
+              isStale,
+              isSuccess,
+              refetch,
+              status - states</li>
+            <li>Global Configuration via QueryClientProvider</li>
+            <li>useInfiniteQuery for Infinite Scroll</li>
+            <li>Background Fetching Indicators</li>
+            <li>Window focus refetching</li>
+            <li>Query Retries on failure</li>
+            <li>Initial query data via preFetchQuery and setQueryData</li>
+            <li>Query Cancellation</li>
+          </ul>
+          <h2>References</h2>
+          <ul style={{ textAlign: "left" }}>
+            <li>https://tanstack.com/query/latest/docs/framework/react/overview</li>
+            <li>https://tkdodo.eu/blog/why-you-want-react-query</li>
+          </ul>
+        </div> : null}
+
+      {lib === libs[2] ?
+        <div>
+          <h2>Features</h2>
+          <ul style={{ textAlign: "left" }}>
+            <li>Tightly couples with Redux Ecosystem</li>
+          </ul>
+          <h2>References</h2>
+          <ul style={{ textAlign: "left" }}>
+            <li>https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities</li>
+          </ul>
+        </div> : null}
+
       {/* <SWR /> */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
