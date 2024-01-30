@@ -43,7 +43,6 @@ function App() {
         <div>
           <h2>Features</h2>
           <ul style={{ textAlign: "left" }}>
-            <li></li>
             <li>data,
               dataUpdatedAt,
               error,
@@ -77,8 +76,8 @@ function App() {
           </ul>
           <h2>References</h2>
           <ul style={{ textAlign: "left" }}>
-            <li>https://tanstack.com/query/latest/docs/framework/react/overview</li>
-            <li>https://tkdodo.eu/blog/why-you-want-react-query</li>
+            <li><a href="https://tanstack.com/query/latest/docs/framework/react/overview">https://tanstack.com/query/latest/docs/framework/react/overview</a></li>
+            <li><a href="https://tkdodo.eu/blog/why-you-want-react-query">https://tkdodo.eu/blog/why-you-want-react-query</a></li>
           </ul>
         </div> : null}
 
@@ -90,7 +89,7 @@ function App() {
           </ul>
           <h2>References</h2>
           <ul style={{ textAlign: "left" }}>
-            <li>https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities</li>
+            <li><a href="https://redux-toolkit.js.org/rtk-query/comparison#unique-capabilities"></a></li>
           </ul>
         </div> : null}
 
