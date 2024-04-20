@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      {libs.map((item) => {
-        return <button style={{ marginLeft: 10 }} onClick={() => {
+      {libs.map((item, index) => {
+        return <button key={index} style={{ marginLeft: 10 }} onClick={() => {
           setLib(item)
         }}>{item}</button>
       })}
